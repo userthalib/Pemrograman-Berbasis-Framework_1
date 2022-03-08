@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Footer from './Footer';
+import List from './List';
+
 
 function HelloComponent() {
   return HelloComponent
@@ -16,9 +19,8 @@ class StateFullComponent extends React.Component {
 }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StateFullComponent />
-  </React.StrictMode>,
+ 
+    <List />,
   document.getElementById('root')
 );
 
