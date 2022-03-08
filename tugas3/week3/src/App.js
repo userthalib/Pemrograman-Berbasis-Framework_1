@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
-import Header from './Header';
+// import Header from './Header';
 import Footer from './Footer';
 import List from './List';
 
 class App extends Component {
-  render() {
-    return (
+  render(){
+    return(
       <div>
-        <Header></Header>
+        {/* <Header>wkwkw</Header> */}
         <h1>Component dari Class App</h1>
         <List/>
-        <Footer judul='Halaman Footer' nama='Thalib' />
+        <Footer judul ='Halaman footer' nama='Thalib' />
       </div>
     );
   }
-}export default App;
+}
+export default App
 // import logo from './logo.svg';
 // import './App.css';
 

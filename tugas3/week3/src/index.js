@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from './Footer';
-import List from './List';
+import HelloComponents from './Component/HelloComponents.css';
+import HelloComponent from './Component/HelloComponent.jsx';
 
 
-function HelloComponent() {
-  return HelloComponent
-}
+
+// function HelloComponent() {
+//   return HelloComponent
+// }
 
 class StateFullComponent extends React.Component {
   render() {
@@ -19,8 +20,7 @@ class StateFullComponent extends React.Component {
 }
 
 ReactDOM.render(
- 
-    <List />,
+    <HelloComponent />,
   document.getElementById('root')
 );
 
