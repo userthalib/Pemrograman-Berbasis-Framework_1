@@ -3,14 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponents from './Component/HelloComponents.css';
-import HelloComponent from './Component/HelloComponent.jsx';
-
-
-
-// function HelloComponent() {
-//   return HelloComponent
-// }
+import Login from './Login/Login.jsx';
 
 class StateFullComponent extends React.Component {
   render() {
@@ -20,7 +13,7 @@ class StateFullComponent extends React.Component {
 }
 
 ReactDOM.render(
-    <HelloComponent />,
+    <Login />,
   document.getElementById('root')
 );
 
