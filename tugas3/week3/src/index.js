@@ -4,21 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-function HelloComponent(){
+function HelloComponent() {
   return HelloComponent
 }
 
-class StateFullComponent extends React.Component{
-  render(){
-    return<p>StateFullComponent</p>
+class StateFullComponent extends React.Component {
+  render() {
+    return <p>StateFullComponent</p>
 
   }
 }
 
 ReactDOM.render(
   <React.StrictMode>
-    <StateFullComponent/>
-    </React.StrictMode>,
+    <StateFullComponent />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
