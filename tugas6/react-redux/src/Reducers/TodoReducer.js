@@ -9,7 +9,7 @@
 // text: 'learn Redux',
 // },
 // ]
-import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from '../actions/actionsTypes'
+import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from '../Actions/actionsTypes'
 const INITIAL_DATA = []
 const TodoReducer = (state = INITIAL_DATA, action) => {
     switch (action.type) {

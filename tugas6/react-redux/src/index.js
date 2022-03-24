@@ -1,18 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose } from 'redux'
-import MainReducer from './reducers/MainReducer'
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import MainReducer from './Reducers/MainReducer'
+import App from './App'
+import Table from './Containers/Table'
+import CreateTodo from './Containers/CreateTodo'
 
 const store = compose(
-  window.devToolsExtension ? window.devToolsExtension(
-  ) : f => f)(createStore)(MainReducer)
+  window.devToolsExtension ? window.devToolsExtension() : (f) => f,
+)(createStore)(MainReducer)
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <CreateTodo />
+    <Table />
   </Provider>,
   document.getElementById('root'),
-);
-registerServiceWorker();
+)
