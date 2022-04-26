@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-const firebaseConfig = {
+export default {
   apiKey: "AIzaSyA0I1l1QXmo0-xRhHFqdnq-E7esFDq9yfA",
   authDomain: "fir-js-c6a36.firebaseapp.com",
   projectId: "fir-js-c6a36",
