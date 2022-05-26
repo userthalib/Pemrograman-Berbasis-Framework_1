@@ -1,0 +1,29 @@
+[debug] [2022-05-26T17:06:45.489Z] ----------------------------------------------------------------------
+[debug] [2022-05-26T17:06:45.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-26T17:06:45.525Z] CLI Version:   11.0.1
+[debug] [2022-05-26T17:06:45.526Z] Platform:      win32
+[debug] [2022-05-26T17:06:45.527Z] Node Version:  v16.14.0
+[debug] [2022-05-26T17:06:45.535Z] Time:          Fri May 27 2022 00:06:45 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-26T17:06:45.537Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-26T17:06:46.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-26T17:06:46.911Z] > authorizing via signed-in user (thalibirfan29@gmail.com)
+[debug] [2022-05-26T17:06:46.915Z] [iam] checking project fir-2-cbdf6 for permissions ["firebase.projects.get"]
+[debug] [2022-05-26T17:06:46.952Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-2-cbdf6:testIamPermissions [none]
+[debug] [2022-05-26T17:06:46.957Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-2-cbdf6:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-26T17:06:48.735Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-2-cbdf6:testIamPermissions 200
+[debug] [2022-05-26T17:06:48.737Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-2-cbdf6:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-26T17:06:48.754Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-2-cbdf6 [none]
+[debug] [2022-05-26T17:06:49.477Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-2-cbdf6 200
+[debug] [2022-05-26T17:06:49.478Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-2-cbdf6 {"projectId":"fir-2-cbdf6","projectNumber":"252681861427","displayName":"firebase2","name":"projects/fir-2-cbdf6","resources":{"hostingSite":"fir-2-cbdf6","storageBucket":"fir-2-cbdf6.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\Irfan Thalib\Desktop\Kuliah\Framework\P1\tugas11\firebase2'...
+[info] 
+[debug] [2022-05-26T17:06:49.536Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-2-cbdf6/sites 
+[debug] [2022-05-26T17:06:51.117Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-2-cbdf6/sites 200
+[debug] [2022-05-26T17:06:51.118Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-2-cbdf6/sites {"sites":[{"name":"projects/fir-2-cbdf6/sites/fir-2-cbdf6","defaultUrl":"https://fir-2-cbdf6.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-26T17:06:51.121Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-2-cbdf6/webApps/-/config [none]
+[debug] [2022-05-26T17:06:51.897Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-2-cbdf6/webApps/-/config 200
+[debug] [2022-05-26T17:06:51.901Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-2-cbdf6/webApps/-/config {"projectId":"fir-2-cbdf6","storageBucket":"fir-2-cbdf6.appspot.com","locationId":"us-central","apiKey":"AIzaSyDqWLYV2W4a2CslqjWx7ohp4fyoyfkkt9o","authDomain":"fir-2-cbdf6.firebaseapp.com","messagingSenderId":"252681861427"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
