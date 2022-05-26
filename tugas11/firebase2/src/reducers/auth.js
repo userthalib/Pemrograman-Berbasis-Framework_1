@@ -7,7 +7,7 @@ import {
     LOGOUT_FAILURE,
     VERIFY_REQUEST,
     VERIFY_SUCCESS
-} from "../actions/";
+} from "../actions/loginUser";
 export default (
     state = {
         isLoggingIn: false,
