@@ -11,3 +11,58 @@
 [debug] [2022-06-02T12:58:47.731Z] [iam] checking project reactfirestore-cd862 for permissions ["firebase.projects.get"]
 [debug] [2022-06-02T12:58:47.733Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirestore-cd862:testIamPermissions [none]
 [debug] [2022-06-02T12:58:47.734Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirestore-cd862:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-02T12:58:49.072Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirestore-cd862:testIamPermissions 200
+[debug] [2022-06-02T12:58:49.073Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirestore-cd862:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-02T12:58:49.074Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862 [none]
+[debug] [2022-06-02T12:58:49.902Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862 200
+[debug] [2022-06-02T12:58:49.902Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862 {"projectId":"reactfirestore-cd862","projectNumber":"713300445380","displayName":"ReactFirestore","name":"projects/reactfirestore-cd862","resources":{"hostingSite":"reactfirestore-cd862","realtimeDatabaseInstance":"reactfirestore-cd862-default-rtdb","storageBucket":"reactfirestore-cd862.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\Irfan Thalib\Desktop\Kuliah\Framework\P1\tugas12\react-firestore-main'...
+[info] 
+[debug] [2022-06-02T12:58:49.912Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/reactfirestore-cd862/sites 
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-06-02T12:58:49.953Z] defaultcredentials: writing to file C:\Users\Irfan Thalib\AppData\Roaming\firebase\thalibirfan29_gmail_com_application_default_credentials.json
+[debug] [2022-06-02T12:58:49.956Z] Setting GAC to C:\Users\Irfan Thalib\AppData\Roaming\firebase\thalibirfan29_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Irfan Thalib\\AppData\\Roaming\\firebase\\thalibirfan29_gmail_com_application_default_credentials.json"}}
+[debug] [2022-06-02T12:58:49.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862/adminSdkConfig [none]
+[debug] [2022-06-02T12:58:51.550Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862/adminSdkConfig 200
+[debug] [2022-06-02T12:58:51.550Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862/adminSdkConfig {"projectId":"reactfirestore-cd862","databaseURL":"https://reactfirestore-cd862-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"reactfirestore-cd862.appspot.com","locationId":"us-central"}
+[debug] [2022-06-02T12:58:51.610Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/reactfirestore-cd862/sites 200
+[debug] [2022-06-02T12:58:51.610Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/reactfirestore-cd862/sites {"sites":[{"name":"projects/reactfirestore-cd862/sites/reactfirestore-cd862","defaultUrl":"https://reactfirestore-cd862.web.app","appId":"1:713300445380:web:eb77a9c831632550532191","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-02T12:58:51.610Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862/webApps/1:713300445380:web:eb77a9c831632550532191/config [none]
+[debug] [2022-06-02T12:58:52.851Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862/webApps/1:713300445380:web:eb77a9c831632550532191/config 200
+[debug] [2022-06-02T12:58:52.851Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactfirestore-cd862/webApps/1:713300445380:web:eb77a9c831632550532191/config {"projectId":"reactfirestore-cd862","appId":"1:713300445380:web:eb77a9c831632550532191","databaseURL":"https://reactfirestore-cd862-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"reactfirestore-cd862.appspot.com","locationId":"us-central","apiKey":"AIzaSyBQPcCoxHlSnIReIEEuscSZgPIeEYLZeFI","authDomain":"reactfirestore-cd862.firebaseapp.com","messagingSenderId":"713300445380"}
+[info] i  functions: Watching "C:\Users\Irfan Thalib\Desktop\Kuliah\Framework\P1\tugas12\react-firestore-main\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Irfan Thalib\\Desktop\\Kuliah\\Framework\\P1\\tugas12\\react-firestore-main\\functions\" for Cloud Functions..."}}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-06-02T12:58:52.952Z] Validating nodejs source
+[debug] [2022-06-02T12:58:56.093Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-02T12:58:56.093Z] Building nodejs source
+[debug] [2022-06-02T12:58:56.094Z] Analyzing nodejs backend spec
+[debug] [2022-06-02T12:58:56.096Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-02T12:58:58.646Z] Serving at port 9005
+
+[debug] [2022-06-02T12:58:59.579Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-02T12:58:59.603Z] shutdown requested via /__/quitquitquit
+
