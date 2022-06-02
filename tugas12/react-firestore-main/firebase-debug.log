@@ -1,0 +1,13 @@
+[debug] [2022-06-02T12:58:47.655Z] ----------------------------------------------------------------------
+[debug] [2022-06-02T12:58:47.657Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-06-02T12:58:47.658Z] CLI Version:   11.0.1
+[debug] [2022-06-02T12:58:47.658Z] Platform:      win32
+[debug] [2022-06-02T12:58:47.658Z] Node Version:  v16.14.0
+[debug] [2022-06-02T12:58:47.659Z] Time:          Thu Jun 02 2022 19:58:47 GMT+0700 (Western Indonesia Time)
+[debug] [2022-06-02T12:58:47.659Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-02T12:58:47.730Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-02T12:58:47.731Z] > authorizing via signed-in user (thalibirfan29@gmail.com)
+[debug] [2022-06-02T12:58:47.731Z] [iam] checking project reactfirestore-cd862 for permissions ["firebase.projects.get"]
+[debug] [2022-06-02T12:58:47.733Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirestore-cd862:testIamPermissions [none]
+[debug] [2022-06-02T12:58:47.734Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirestore-cd862:testIamPermissions {"permissions":["firebase.projects.get"]}
